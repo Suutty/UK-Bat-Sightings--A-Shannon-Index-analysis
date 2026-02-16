@@ -1,7 +1,7 @@
 # UK Chiroptera Sightings - A Shannon Index analysis
 Spatio-temporal analysis of 973k+ UK bat records (1960–2026) using BigQuery, SQL, and Tableau to evaluate species richness and reporting trends
 
-# 🦇 Spatio-temporal Dynamics of UK Bat variety recordings (1960–2026)
+# 🦇 Spatio-temporal dynamics of UK Bat variety recordings (1960–2026)
 
 ## 📌 Project Overview
 This project analyses **973,232 verified bat occurrence records** from the NBN Atlas (via GBIF) databse to evaluate long-term trends in UK bat sightings and recordings. 
