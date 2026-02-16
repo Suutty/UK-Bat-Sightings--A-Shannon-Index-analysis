@@ -4,7 +4,7 @@ Spatio-temporal analysis of 973k+ UK bat records (1960–2026) using BigQuery, S
 # 🦇 Spatio-temporal dynamics of UK Bat variety recordings (1960–2026)
 
 ## 📌 Project Overview
-This project analyses **973,232 verified bat occurrence records** from the NBN Atlas (via GBIF) databse to evaluate long-term trends in UK bat sightings and recordings. 
+This project analyses **973,232 verified bat occurrence records** from the NBN Atlas (via GBIF) database to evaluate long-term trends in UK bat sightings and recordings. 
 
 By applying **S2 geometry spatial binning** and **Shannon Diversity Index** calculations, the analysis works to recognise ecological reporting hotspots and trends in sampling efforts.
 
@@ -43,8 +43,6 @@ By applying **S2 geometry spatial binning** and **Shannon Diversity Index** calc
 
 ## 📂 Repository Structure
 *   `/sql`: Raw SQL queries used for data cleaning and aggregation in BigQuery.
-*   `/docs`: Methodology notes and data dictionary.
-
 ---
 
 ## 📜 Citation
