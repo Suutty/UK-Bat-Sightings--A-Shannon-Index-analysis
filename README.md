@@ -1,10 +1,10 @@
-# UK-Bat-Sightings--A-Shannon-Index-analysis
+# UK Chiroptera Sightings - A Shannon Index analysis
 Spatiotemporal analysis of 973k+ UK bat records (1960–2026) using BigQuery, SQL, and Tableau to evaluate species richness and reporting trends
 
-# 🦇 Temporal Dynamics of UK Bat Diversity (1960–2026)
+# 🦇 Spatio-temporal Dynamics of UK Bat Biodiversity sightings (1960–2026)
 
 ## 📌 Project Overview
-This project analyzes over **900,000 verified bat occurrence records** from the NBN Atlas (via GBIF) to evaluate long-term trends in UK bat populations. 
+This project analyses **973,232 verified bat occurrence records** from the NBN Atlas (via GBIF) databse to evaluate long-term trends in UK bat sightings and recordings. 
 
 By applying **S2 geometry spatial binning** and **Shannon Diversity Index** calculations, the analysis works to recognise ecological reporting hotspots and trends in sampling efforts.
 
