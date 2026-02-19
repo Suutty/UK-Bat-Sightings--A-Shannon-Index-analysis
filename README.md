@@ -6,7 +6,7 @@
 ## Project Overview
 This project is a spatio-temporal analysis of 973,323 UK bat records (1960–2026) from the NBN Atlas (via GBIF) database to evaluate long-term trends in UK bat sightings and recordings. 
 
-By applying **S2 geometry spatial binning** and **Shannon Diversity Index** calculations, the analysis works to recognise ecological reporting hotspots and trends in sampling efforts.
+By applying **S2 geometry spatial binning** and **Shannon Index** calculations, the analysis works to recognise ecological reporting hotspots and trends in sampling efforts.
 
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/john.sutton8198/viz/UKBatSightingsAShannonIndexAnalysis/Varietydensityindex)**
 
@@ -24,20 +24,20 @@ By applying **S2 geometry spatial binning** and **Shannon Diversity Index** calc
 *   **Data Source:** Global Biodiversity Information Facility (GBIF) / NBN Atlas (Occurrences of *Chiroptera* in UK, 1960–2026).
 *   **Data Engineering (Google BigQuery & SQL):**
     *   **Cleaning:** Filtered 973k raw records to 916k verified occurrences (removed null coordinates, unresolved taxonomy).
-    *   **Spatial Binning:** Aggregated data into **S2 Level 11 (~20km²) and Level 10 (~80km²)** grid cells to normalize spatial precision.
+    *   **Spatial Binning:** Aggregated data into **S2 Level 11 (~20km²) and Level 10 (~80km²)** grid cells to normalise spatial precision.
     *   **Temporal Binning:** Grouped records into **5-year intervals** to smooth irregular reporting spikes.
-    *   **Metrics:** Calculated **Species Richness**, **Shannon Diversity Index**, and **Records per Species** using window functions.
-*   **Visualization (Tableau):**
+    *   **Metrics:** Calculated **Species Richness**, **Shannon Index**, and **Records per Species** using window functions.
+*   **Visualisation (Tableau):**
     *   **Dual-Map Strategy:** 
         1.  **Exploratory Map:** Interactive yearly observation history.
-        2.  **Analytical Map:** Binned density map visualizing the **Sampling Effort vs. Reported variety** relationship.
+        2.  **Analytical Map:** Binned density map visualizing the **Sampling effort vs. Reported variety** relationship.
 
 ---
 
 ## Key Insights
 1.  **The "Smartphone Effect":** A massive exponential spike in records post-2005 correlates with the rise of digital recording apps, not a population boom or correlation with species variety.
 2.  **Efficiency Paradox:** Areas with the highest sampling effort often show **moderate variety**, suggesting sampling trends / social phenomona. 
-3.  **Hidden Strongholds?:** The highest **Shannon Diversity** scores found in rural areas with low-moderate sampling efforts.
+3.  **Hidden Strongholds?:** The highest **Shannon Index** scores found in rural areas with low-moderate sampling efforts.
 
 ---
 
